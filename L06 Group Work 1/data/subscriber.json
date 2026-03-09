@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Example User",
+    "email": "example@email.com",
+    "age": 21,
+    "affiliation": "USA",
+    "phone": "123-456-7890"
+  }
+]

@@ -1,0 +1,120 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">TRITH</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navmenu">
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Subscribe</a>
+</li>
+
+</ul>
+</div>
+
+</div>
+</nav>
+
+<main class="container py-5">
+
+<section class="border rounded-4 overflow-hidden shadow-lg">
+
+<div class="row g-0">
+
+<div class="col-lg-6">
+<img
+src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+class="w-100 h-100 object-fit-cover"
+style="min-height:420px;"
+>
+</div>
+
+<div class="col-lg-6 p-4 p-md-5">
+
+<h1 class="fw-bold mb-2 text-primary">Join TRITH</h1>
+<p class="text-muted mb-4">Subscribe to see our travel deals and updates!</p>
+
+<form>
+
+<div class="mb-3">
+<label class="form-label">Name *</label>
+<input class="form-control" type="text">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Email *</label>
+<input class="form-control" type="email">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Age *</label>
+<input class="form-control" type="number">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Country / Affiliation *</label>
+<input class="form-control" type="text">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Phone (optional)</label>
+<input class="form-control" type="tel">
+</div>
+
+<div class="d-grid">
+<button class="btn btn-primary">Finish</button>
+</div>
+
+</form>
+
+</div>
+
+</div>
+</section>
+
+<section class="mt-5">
+
+<h2 class="h4 fw-bold mb-3">Subscriber Directory</h2>
+
+<div class="table-responsive">
+
+<table class="table table-bordered align-middle">
+
+<thead class="table-light">
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Age</th>
+<th>Country</th>
+<th>Phone</th>
+<th>Actions</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Example User</td>
+<td>example@email.com</td>
+<td>21</td>
+<td>USA</td>
+<td>123-456-7890</td>
+<td>Edit</td>
+</tr>
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+</main>
